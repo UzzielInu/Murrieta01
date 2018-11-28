@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('root');
 });
+Route::get('/2', function () {
+    return view('dos');
+});
+Route::get('/3', function () {
+    return view('tres');
+});
