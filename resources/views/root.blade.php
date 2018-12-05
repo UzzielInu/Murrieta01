@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Murrieta</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -57,9 +55,9 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">100 % Mexicano</div>
-          <div class="intro-heading text-uppercase">Camisas Murrieta</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Información</a>
+          <div class="intro-lead-in"></div>
+          <div class="intro-heading text-uppercase"></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger d-none" href="#services">Información</a>
         </div>
       </div>
     </header>
