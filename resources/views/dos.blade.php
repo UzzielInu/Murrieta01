@@ -29,7 +29,9 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Murrieta</a>
+        <a class="navbar-brand py-0" href="{{url('2')}}">
+          <img src="{{ asset('img/portada/logo.jpg') }}" width="90" height="40" class="d-inline-block align-top" alt="">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -149,16 +151,16 @@
           <div class="card h-100">
             <h4 class="card-header">Camisa Blanca</h4>
             <div class="card-body">
-              <p class="card-text">
-                <ul>
-                  <li>Manga corta</li>
-                  <li>Manga larga</li>
-                </ul>
+              <p class="card-text text-center">
+                {{-- <ul class="list-group text-center"> --}}
+                  <a class="btn btn-primary my-1" href="{{url(3)}}">Manga corta</a><br>
+                  <a class="btn btn-primary my-1" href="{{url(4)}}">Manga larga</a>
+                {{-- </ul> --}}
               </p>
             </div>
-            <div class="card-footer text-center">
+            {{-- <div class="card-footer text-center">
               <a href="{{url(3)}}" class="btn btn-primary col-sm-6">Ver</a>
-            </div>
+            </div> --}}
           </div>
         </div>
         <div class="col-lg-4 mb-4">
@@ -166,7 +168,7 @@
             <h4 class="card-header">Casual</h4>
             <div class="card-body">
               <p class="card-text">
-                
+
               </p>
             </div>
             <div class="card-footer text-center">
@@ -179,7 +181,7 @@
             <h4 class="card-header">Vaquera</h4>
             <div class="card-body">
               <p class="card-text">
-                
+
               </p>
             </div>
             <div class="card-footer text-center">

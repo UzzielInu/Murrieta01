@@ -55,33 +55,38 @@
     <!-- Page Content -->
     <div class="container">
       <h1 class="my-4 text-center text-lg-left">Camisa Blanca</h1>
-      <div id="images" class="row col text-center text-lg-left">
+      <div id="images" class="row text-center text-lg-left">
         <div class="row col-md-12 justify-content-center">
-          <h3>Manga Corta</h3>
+          <h3>Manga Larga</h3>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC4.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML3.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC5.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML4.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img id="image" class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC1b.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML5.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC2.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML0.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC3.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML1.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Larga/ML2.jpg') }}" alt="">
           </a>
         </div>
       </div>

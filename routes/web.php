@@ -20,6 +20,9 @@ Route::get('/2', function () {
 Route::get('/3', function () {
     return view('tres');
 });
+Route::get('/4', function () {
+    return view('cuatro');
+});
 
 Auth::routes();
 
