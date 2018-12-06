@@ -114,59 +114,86 @@
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                  <i class="fas fa-plus-circle fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="Camisa Blanca">
             </a>
             <div class="portfolio-caption">
-              <h4>Camisa Blanca</h4>
-              {{-- <p class="text-muted"></p> --}}
+              <h4><a href="{{url('/3')}}">Camisa Blanca</a></h4>
+              <p class="text-muted">Manga Corta</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus-circle fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="Camisa Blanca">
+            </a>
+            <div class="portfolio-caption">
+              <h4><a href="">Camisa Blanca</a></h4>
+              <p class="text-muted">Manga Larga</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                  <i class="fas fa-plus-circle fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="">
+              <img class="img-fluid" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Casual</h4>
-              {{-- <p class="text-muted"></p> --}}
+              <p class="text-muted">Básica</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                  <i class="fas fa-plus-circle fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db3.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>Casual</h4>
+              <p class="text-muted">Doble Botón</p>
             </div>
           </div>
-          {{-- NEXT --}}
-          {{-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                  <i class="fas fa-plus-circle fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc1.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Otros</h4>
-              <p class="text-muted">Proximamente</p>
+              <h4>Casual</h4>
+              <p class="text-muted">Fraccionado</p>
             </div>
-          </div> --}}
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus-circle fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{{ asset('img/tienda/Vaquera/Mezclilla/4.jpg') }}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Vaquera</h4>
+              <p class="text-muted">Mezclilla</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -472,18 +499,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h3 class="text-uppercase">Camisa Blanca</h3>
+                  <h4 class="item-intro text-muted">Manga Corta</h4>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="">
+                  <p>Camisa Hecha en Popelina, blanca manga corta. con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Información</li>
+                    <li>Extra</li>
+                    {{-- <li>Category: Illustration</li> --}}
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Cerrar</button>
                 </div>
               </div>
             </div>
