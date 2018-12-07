@@ -125,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus-circle fa-3x"></i>
@@ -134,12 +134,12 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="Camisa Blanca">
             </a>
             <div class="portfolio-caption">
-              <h4><a href="">Camisa Blanca</a></h4>
+              <h4><a href="{{url('/4')}}">Camisa Blanca</a></h4>
               <p class="text-muted">Manga Larga</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus-circle fa-3x"></i>
@@ -148,12 +148,12 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Casual</h4>
+              <h4><a href="{{url('/5')}}">Casual</a></h4>
               <p class="text-muted">Básica</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus-circle fa-3x"></i>
@@ -162,12 +162,12 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db3.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Casual</h4>
+              <h4><a href="{{url('/6')}}">Casual</a></h4>
               <p class="text-muted">Doble Botón</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus-circle fa-3x"></i>
@@ -176,12 +176,12 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc1.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Casual</h4>
+              <h4><a href="{{url('/7')}}">Casual</a></h4>
               <p class="text-muted">Fraccionado</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus-circle fa-3x"></i>
@@ -190,7 +190,7 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Vaquera/Mezclilla/4.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Vaquera</h4>
+              <h4><a href="{{url('/8')}}">Vaquera</a></h4>
               <p class="text-muted">Mezclilla</p>
             </div>
           </div>
@@ -504,13 +504,13 @@
                   <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="">
                   <p>Camisa Hecha en Popelina, blanca manga corta. con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Información</li>
-                    <li>Extra</li>
-                    {{-- <li>Category: Illustration</li> --}}
+                    <li>
+                      <a href="{{url('/3')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Cerrar</button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -533,18 +533,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">camisa Blanca</h2>
+                  <p class="item-intro text-muted">Manga Larga</p>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
+                  <p>Camisa Hecha en Popelina, blanca manga Larga. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata y un puño con entretela para mayor firmeza. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>
+                      <a href="{{url('/4')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -567,18 +567,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">camisa Blanca</h2>
+                  <p class="item-intro text-muted">Manga Larga</p>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
+                  <p>Camia de caballero casual, combinada en la parte interna del cuelloy la aletilla de delantero. donde ta,bien se encuentra un vivo para hacerla notar  que con¡onsta de 3 colores, tambien trae combinacion en la aletilla de lamanga por la parte externa.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>
+                      <a href="{{url('/5')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -588,7 +588,7 @@
     </div>
 
     <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -601,18 +601,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">camisa Blanca</h2>
+                  <p class="item-intro text-muted">Manga Larga</p>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
+                  <p>Camisa Hecha en Popelina, blanca manga Larga. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata y un puño con entretela para mayor firmeza. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>
+                      <a href="{{url('/4')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -622,7 +622,7 @@
     </div>
 
     <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -635,18 +635,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">camisa Blanca</h2>
+                  <p class="item-intro text-muted">Manga Larga</p>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
+                  <p>Camisa Hecha en Popelina, blanca manga Larga. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata y un puño con entretela para mayor firmeza. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>
+                      <a href="{{url('/4')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -656,7 +656,7 @@
     </div>
 
     <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -669,18 +669,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">camisa Blanca</h2>
+                  <p class="item-intro text-muted">Manga Larga</p>
+                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
+                  <p>Camisa Hecha en Popelina, blanca manga Larga. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata y un puño con entretela para mayor firmeza. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>
+                      <a href="{{url('/4')}}" role="button" class="btn btn-dark">Ver más</a>
+                    </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </button>
                 </div>
               </div>
             </div>

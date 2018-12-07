@@ -23,7 +23,18 @@ Route::get('/3', function () {
 Route::get('/4', function () {
     return view('cuatro');
 });
-
+Route::get('/5', function () {
+    return view('cinco');
+});
+Route::get('/6', function () {
+    return view('seis');
+});
+Route::get('/7', function () {
+    return view('siete');
+});
+Route::get('/8', function () {
+    return view('ocho');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

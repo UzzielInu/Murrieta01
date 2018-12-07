@@ -59,41 +59,71 @@
           <a href="{{URL::previous()}}" role="button" class="btn btn-secondary">Regresar</a>
         </div>
         <div class="col-sm-4 text-center">
-          <h2 class="my-0">Camisa Blanca</h2>
+          <h2 class="my-0">Camisa Casual</h2>
         </div>
         <div class="col-sm-4 text-center">
-          <h4 class="mb-0 pt-2">Manga Larga</h4>
+          <h4 class="mb-0 pt-2">Básica</h4>
         </div>
       </div>
       <div id="images" class="row col-md-12 text-center text-lg-left mx-0 mt-2">
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb1.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML4.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb2.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img id="image" class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML3.jpg') }}" alt="">
+            <img id="image" class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb3.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML2.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb4.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML1.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb5.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML0.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb6.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb1.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb2.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb3.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb4.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb5.jpg') }}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
           </a>
         </div>
       </div>

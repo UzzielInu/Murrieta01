@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Galería</title>
+    <title>Murrieta</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,13 +20,13 @@
 
   </head>
 
-  <body>
+  <body class="">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand py-0" href="{{url('2')}}">
-          <img src="{{ asset('img/portada/logo.jpg') }}" width="90" height="40" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand py-0" href="{{url('/')}}">
+          <img src="{{ asset('img/portada/logo.jpg') }}" height="60" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,34 +54,41 @@
 
     <!-- Page Content -->
     <div class="container">
-      <h1 class="my-4 text-center text-lg-left">Camisa Blanca</h1>
-      <div id="images" class="row col text-center text-lg-left">
-        <div class="row col-md-12 justify-content-center">
-          <h3>Manga Corta</h3>
+      <div class="row justify-content-center col-md-12 py-4 mx-0 mt-2">
+        <div class="col-sm-4 text-center">
+          <a href="{{URL::previous()}}" role="button" class="btn btn-secondary">Regresar</a>
         </div>
+        <div class="col-sm-4 text-center">
+          <h2 class="my-0">Camisa Blanca</h2>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h4 class="mb-0 pt-2">Manga Corta</h4>
+        </div>
+      </div>
+      <div id="images" class="row col-md-12 text-center text-lg-left mx-0 mt-2">
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC4.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC5.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC5.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img id="image" class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC1b.jpg') }}" alt="">
+            <img id="image" class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC1b.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC2.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC2.jpg') }}" alt="">
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Camisa Blanca/Manga_Corta/MC3.jpg') }}" alt="">
+            <img class="img-fluid img-thumbnail border-dark" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC3.jpg') }}" alt="">
           </a>
         </div>
       </div>
