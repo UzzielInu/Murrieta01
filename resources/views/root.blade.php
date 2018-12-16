@@ -52,12 +52,35 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in"></div>
-          <div class="intro-heading text-uppercase"></div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger d-none" href="#services">Información</a>
+    <header class="masthead" style="margin-top:5%;">
+      <div class="container-fluid pt-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox" style="height:600px">
+            <div class="carousel-item active">
+              <img class="" src="{{ asset('img/portada/logo.jpg') }}" alt="First slide" style="max-width:100%;">
+            </div>
+            <div class="carousel-item">
+              <img class="" src="{{ asset('img/portada/3.jpg') }}" alt="Second slide" style="max-width:100%;">
+            </div>
+            <div class="carousel-item">
+              <img class="" src="{{ asset('img/portada/5.jpg') }}" alt="Third slide" style="max-width:100%;">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </header>

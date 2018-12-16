@@ -35,6 +35,12 @@ Route::get('/7', function () {
 Route::get('/8', function () {
     return view('ocho');
 });
+Route::get('/shop/camisa_blanca/corta', function () {
+    return view('camisa_blanca_corta');
+});
+Route::get('/shop/camisa_blanca/larga', function () {
+    return view('camisa_blanca_larga');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
