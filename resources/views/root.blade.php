@@ -22,9 +22,11 @@
 
   <body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#989898;">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger py-1" href="#page-top">Murrieta</a>
+        <a class="navbar-brand js-scroll-trigger py-1" href="#page-top">
+          <img src="{{ asset('img/portada/murrieta.png') }}" width="90" height="40" class="d-inline-block align-top" alt="">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -37,14 +39,23 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Tienda</a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Acerca de</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Equipo</a>
-            </li>
+            </li> --}}
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </li>
+            {{-- <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-twitter fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            </li> --}}
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/CamisasMurrieta/" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></i></a>
             </li>
           </ul>
         </div>
@@ -133,7 +144,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          {{-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -146,7 +157,7 @@
               <h4><a href="{{url('/3')}}">Camisa Blanca</a></h4>
               <p class="text-muted">Manga Corta</p>
             </div>
-          </div>
+          </div> --}}
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
@@ -157,8 +168,8 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="Camisa Blanca">
             </a>
             <div class="portfolio-caption">
-              <h4><a href="{{url('/4')}}">Camisa Blanca</a></h4>
-              <p class="text-muted">Manga Larga</p>
+              <h4><a href="{{url('/shop/camisa_blanca')}}">Camisa Blanca</a></h4>
+              {{-- <p class="text-muted">Manga Larga</p> --}}
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -172,10 +183,10 @@
             </a>
             <div class="portfolio-caption">
               <h4><a href="{{url('/5')}}">Casual</a></h4>
-              <p class="text-muted">Básica</p>
+              {{-- <p class="text-muted">Básica</p> --}}
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          {{-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -188,8 +199,8 @@
               <h4><a href="{{url('/6')}}">Casual</a></h4>
               <p class="text-muted">Doble Botón</p>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          </div> --}}
+          {{-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -202,8 +213,8 @@
               <h4><a href="{{url('/7')}}">Casual</a></h4>
               <p class="text-muted">Fraccionado</p>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          </div> --}}
+          {{-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -216,13 +227,13 @@
               <h4><a href="{{url('/8')}}">Vaquera</a></h4>
               <p class="text-muted">Mezclilla</p>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
     </section>
 
     <!-- About -->
-    <section id="about">
+    {{-- <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -300,10 +311,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     <!-- Team -->
-    <section class="bg-light" id="team">
+    {{-- <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -391,35 +402,7 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section> --}}
 
     <!-- Contact -->
     <section id="contact">
@@ -471,76 +454,42 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">Camisas Murrieta</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
+              {{-- <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-twitter"></i>
                 </a>
-              </li>
+              </li> --}}
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/CamisasMurrieta/" target="_blank">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              {{-- <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-              </li>
+              </li> --}}
             </ul>
           </div>
           <div class="col-md-4">
-            <ul class="list-inline quicklinks">
+            {{-- <ul class="list-inline quicklinks">
               <li class="list-inline-item">
                 <a href="#">Privacy Policy</a>
               </li>
               <li class="list-inline-item">
                 <a href="#">Terms of Use</a>
               </li>
-            </ul>
+            </ul> --}}
           </div>
         </div>
       </div>
     </footer>
 
     <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3 class="text-uppercase">Camisa Blanca</h3>
-                  <h4 class="item-intro text-muted">Manga Corta</h4>
-                  <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" alt="">
-                  <p>Camisa Hecha en Popelina, blanca manga corta. con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata. Disponible en tallas de niño o caballero.</p>
-                  <ul class="list-inline">
-                    <li>
-                      <a href="{{url('/3')}}" role="button" class="btn btn-dark">Ver más</a>
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -557,12 +506,11 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">camisa Blanca</h2>
-                  <p class="item-intro text-muted">Manga Larga</p>
                   <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Larga/ML5.jpg') }}" alt="">
-                  <p>Camisa Hecha en Popelina, blanca manga Larga. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata y un puño con entretela para mayor firmeza. Disponible en tallas de niño o caballero.</p>
+                  <p>Camisa hecha en popelina. Con un delantero y un cuello mas firme el cual facilita el ajuste al usar corbata. Disponible en tallas de niño o caballero.</p>
                   <ul class="list-inline">
                     <li>
-                      <a href="{{url('/4')}}" role="button" class="btn btn-dark">Ver más</a>
+                      <a href="{{url('/shop/camisa_blanca')}}" role="button" class="btn btn-dark">Ver más</a>
                     </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -590,10 +538,9 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">camisa Blanca</h2>
-                  <p class="item-intro text-muted">Manga Larga</p>
+                  <h2 class="text-uppercase">Camisa Casual</h2>
                   <img class="img-fluid d-block mx-auto" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
-                  <p>Camia de caballero casual, combinada en la parte interna del cuelloy la aletilla de delantero. donde ta,bien se encuentra un vivo para hacerla notar  que con¡onsta de 3 colores, tambien trae combinacion en la aletilla de lamanga por la parte externa.</p>
+                  <p>Camisa de caballero casual, combinada en la parte interna del cuello y la aletilla de delantero. donde tambien se encuentra un vivo para hacerla notar  que consta de 3 colores, tambien trae combinación en la aletilla de la manga por la parte externa.</p>
                   <ul class="list-inline">
                     <li>
                       <a href="{{url('/5')}}" role="button" class="btn btn-dark">Ver más</a>
@@ -610,7 +557,7 @@
       </div>
     </div>
 
-    <!-- Modal 4 -->
+    {{-- <!-- Modal 4 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -710,7 +657,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>

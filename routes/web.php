@@ -35,11 +35,11 @@ Route::get('/7', function () {
 Route::get('/8', function () {
     return view('ocho');
 });
-Route::get('/shop/camisa_blanca/corta', function () {
-    return view('camisa_blanca_corta');
+Route::get('/shop/camisa_blanca', function () {
+    return view('camisa_blanca');
 });
-Route::get('/shop/camisa_blanca/larga', function () {
-    return view('camisa_blanca_larga');
+Route::get('/shop/camisa_casual', function () {
+    return view('camisa_casual');
 });
 Auth::routes();
 
