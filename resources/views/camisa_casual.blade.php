@@ -14,7 +14,8 @@
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{asset('css/shop-homepage.css')}}" rel="stylesheet">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.0/viewer.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.0/viewer.min.js"></script>
   </head>
 
   <body>
@@ -55,9 +56,10 @@
       <div class="row">
 
         <div class="col-lg-3">
-          <h1 class="my-4">Camisa Blanca</h1>
+          <h1 class="my-4">Camisa Casual</h1>
           <div class="list-group">
-            <p align="justify" style="font-size:16px;">Camisa de caballero casual, combinada en la parte interna del cuello y la aletilla de delantero. donde tambien se encuentra un vivo para hacerla notar  que consta de 3 colores, tambien trae combinación en la aletilla de la manga por la parte externa.</p>
+            <p align="justify" style="font-size:16px;">Camisa de caballero manga larga, combinada en la parte interna del cuello, aletilla y puño para darle una mejor vista a la prenda.</p>
+
           </div>
           {{-- <div class="list-group">
             <a href="{{url('shop/camisa_blanca/corta')}}" class="list-group-item">Manga Corta</a>
@@ -67,67 +69,99 @@
         <!-- /.col-lg-3 -->
 
         <div class="col-lg-9 mt-4">
-
-          {{-- <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <img class="d-block img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC5.jpg') }}"  height="50%" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC4.jpg') }}" height="50%" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC3.jpg') }}" height="50%" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div> --}}
-
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC1b.jpg') }}" alt=""></a>
+              <div id="images" class="card h-100">
+                <a href="#">
+                <img class="card-img-top" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb7.jpg') }}" alt=""></a>
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb6.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb4.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Caracteristicas/cb1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb4.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="" style="display:none">
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Manga Corta</a>
+                    <a href="#">Casual Básica</a>
                   </h4>
-                  {{-- <h5>$</h5> --}}
-                  <p class="card-text"> Camisa Hecha en Popelina, disponible en tallas de niño o caballero. </p>
+                  <p class="card-text"> Camisa de caballero casual, combinada en la parte interna del cuello y la aletilla de delantero, donde se encuentra un vivo para hacerla notar que consta de 3 colores. <br> Tiene tambien combinación en la aletilla de la manga por la parte externa. </p>
                 </div>
-                {{-- <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div> --}}
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="{{ asset('img/tienda/Camisa_Blanca/Manga_Corta/MC2.jpg') }}" alt=""></a>
+              <div id="images2" class="card h-100">
+                <a href="#">
+                <img class="card-img-top" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db6.jpg') }}" alt=""></a>
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db6.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db4.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Colores/db5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Doble_Boton/Caracteristicas/db4.jpg') }}" alt="" style="display:none">
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Manga Larga</a>
+                    <a href="#">Doble Botón</a>
                   </h4>
-                  {{-- <h5>$</h5> --}}
-                  <p class="card-text"> Camisa Hecha en Popelina, disponible en tallas de niño o caballero. </p>
+                  <p class="card-text"> Camisa de caballero manga larga en corte Slim, combinada en la parte interna del cuello, aletilla y puño para darle una mejor vista a la prenda. <br> Tambien trae botones en el delantero agrupados de dos en dos. </p>
                 </div>
-                {{-- <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div> --}}
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div id="images3" class="card h-100">
+                <a href="#">
+                <img class="card-img-top" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc11.jpg') }}" alt=""></a>
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf4.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf6.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf7.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf8.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf9.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf10.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf11.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf12.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf13.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf14.jpg') }}" alt="" style="display:none">
+
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc1.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc2.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc3.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc4.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc6.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc7.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc8.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc9.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc10.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Caracteristicas/cf5.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc12.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc13.jpg') }}" alt="" style="display:none">
+                <img class="img-fluid img-thumbnail" src="{{ asset('img/tienda/Casual/Fraccionado/Colores/fc14.jpg') }}" alt="" style="display:none">
+
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Fraccionado</a>
+                  </h4>
+                  <p class="card-text"> Camisa de caballero en corte slim, tallas, chica mediana, grande y extra grande. <br> Tiene combinación en la parte interna del cuello, la parte interna del delantero y el puño. <br> Tambien cuenta con boton de cuello </p>
+                </div>
+              </div>
+            </div>
+
           </div>
           <!-- /.row -->
 
@@ -151,7 +185,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-
+    <script type="text/javascript">
+    const gallery = new Viewer(document.getElementById('images'));
+    const gallery2 = new Viewer(document.getElementById('images2'));
+    const gallery3 = new Viewer(document.getElementById('images3'));
+    </script>
   </body>
 
 </html>

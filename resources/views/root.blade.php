@@ -73,7 +73,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
-          <div class="carousel-inner" role="listbox" style="height:600px">
+          <div class="carousel-inner" role="listbox" style="height:50%">
             <div class="carousel-item active">
               <img class="" src="{{ asset('img/portada/logo.jpg') }}" alt="First slide" style="max-width:100%;">
             </div>
@@ -182,7 +182,7 @@
               <img class="img-fluid" src="{{ asset('img/tienda/Casual/Casual_Basica/Colores/cb6.jpg') }}" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4><a href="{{url('/5')}}">Casual</a></h4>
+              <h4><a href="{{url('/shop/camisa_casual')}}">Casual</a></h4>
               {{-- <p class="text-muted">Básica</p> --}}
             </div>
           </div>
