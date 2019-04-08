@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#989898;">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger py-1" href="#page-top">
-          <img src="{{ asset('img/portada/murrieta.png') }}" width="90" height="40" class="d-inline-block align-top" alt="">
+          <img src="{{ asset('img/portada/murrieta.png') }}" width="110" height="40" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -398,11 +398,11 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            {{-- <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> --}}
+             <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> --}}
           </div>
         </div>
       </div>
-    </section> --}}
+    </section>
 
     <!-- Contact -->
     <section id="contact">
