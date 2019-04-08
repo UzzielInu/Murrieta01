@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#989898;">
       <div class="container">
         <a class="navbar-brand" href="{{url('/')}}">
-          <img src="{{ asset('img/portada/murrieta.png') }}" width="90" height="40" class="d-inline-block align-top" alt="">
+          <img src="{{ asset('img/portada/murrieta.png') }}" width="110" height="40" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
