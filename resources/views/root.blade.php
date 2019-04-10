@@ -75,7 +75,7 @@
           </ol>
           <div class="carousel-inner" role="listbox" style="height:50%">
             <div class="carousel-item active">
-              <img class="" src="{{ asset('img/portada/logo.jpg') }}" alt="First slide" style="max-width:100%;">
+              <img class="" src="{{ asset('img/portada/logo.png') }}" alt="First slide" style="max-width:100%;">
             </div>
             <div class="carousel-item">
               <img class="" src="{{ asset('img/portada/3.jpg') }}" alt="Second slide" style="max-width:100%;">
